@@ -1,4 +1,6 @@
-#import <Flutter/Flutter.h>
+// #import <Flutter/Flutter.h>
 
-@interface FlutterCallkitIncomingPlugin : NSObject<FlutterPlugin>
+// disable on iOS as we have another plugin "callkeep" that takes care of the Callkit implementation on iOS
+@interface FlutterCallkitIncomingPlugin : NSObject
+// @interface FlutterCallkitIncomingPlugin : NSObject<FlutterPlugin>
 @end

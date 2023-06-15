@@ -9,7 +9,8 @@
 #endif
 
 @implementation FlutterCallkitIncomingPlugin
-+ (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftFlutterCallkitIncomingPlugin registerWithRegistrar:registrar];
-}
+// disable on iOS as we have another plugin "callkeep" that takes care of the Callkit implementation on iOS
+// + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
+//   [SwiftFlutterCallkitIncomingPlugin registerWithRegistrar:registrar];
+// }
 @end
